@@ -1,4 +1,4 @@
-<!-- 
+/* 
 
     Program: styles.css
     Author: Darrian Robinson
@@ -6,7 +6,7 @@
     Date Modified: 02/26/2026 
     Version 2.0
     Description: MIS 3371 Homework 1-css code to style html
--->
+*/
 
 /* Place your CSS styles in this file */
 
@@ -14,19 +14,18 @@ body{
     background-color: #E6F2FF; /*Light blue*/
     color:  #003366;           /*Dark navy*/
     font-family: Verdana;
-    }
+}
 #header{
     background-color: #BBD4EE; /*Slightly darker light blue*/
-    padding:40px;
     font-size: large;
 }
 #logo{
-    max-width: 80px;
-    height: auto;
+    max-width: 180px;
+    height: 160px;
     display: block;
 }
 #title{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
     text-align: center;
     display: block;
@@ -51,9 +50,9 @@ body{
     text-align: center;
 }
 #contactBtn {
-    font-size: 18px;
+    font-size: 14px;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 table.form{
     margin-left: auto;
@@ -73,5 +72,3 @@ table.form{
     border-radius: 10px;
     text-align: center;
 }
-
-
