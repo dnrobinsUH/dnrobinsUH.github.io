@@ -21,8 +21,9 @@ body{
     font-size: large;
 }
 #logo{
-    width: 20px;
+    max-width: 20px;
     height: auto;
+    display: block;
 }
 #title{
     font-size: 36px;
